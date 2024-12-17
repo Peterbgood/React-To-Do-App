@@ -73,7 +73,7 @@ function App() {
 
   return (
     <div className="container mt-5">
-      <h1 className="text-center mb-4">To-Do List App</h1>
+      <h1 className="text-center mb-4">To-Do List</h1>
       <form onSubmit={handleSubmit}>
         <div className="input-group mb-3">
           <input
