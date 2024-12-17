@@ -73,7 +73,11 @@ function App() {
 
   return (
     <div className="container mt-5">
+<<<<<<< HEAD
       <h1 className="text-center mb-4">To-Do</h1>
+=======
+      <h1 className="text-center mb-4">To-Do List</h1>
+>>>>>>> a61399621fb80fb1d9ac7b30a846314893d66cfa
       <form onSubmit={handleSubmit}>
         <div className="input-group mb-3">
           <input
