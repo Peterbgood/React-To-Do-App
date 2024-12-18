@@ -111,7 +111,7 @@ function App() {
             )}
             <div>
               {editing === index ? (
-                <button type="button" className="btn btn-secondary me-2" btn-sm onClick={() => setEditing(null)}><BiReset className="icon svg-icon" /></button>
+                <button type="button" className="btn btn-secondary btn-sm me-2"  onClick={() => setEditing(null)}><BiReset className="icon svg-icon" /></button>
               ) : (
                 <button type="button" className="btn btn-primary btn-sm me-2" onClick={() => handleEdit(index)}><BiEdit className="icon svg-icon" /></button>
               )}
